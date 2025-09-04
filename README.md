@@ -275,14 +275,12 @@ On the next import the system would download operating_expenses.csv.
 Currently only Agriculture Census tables work with this program. Future table support is outlined in [Future Plans](#future-plans).
 
 # Future Plans
-
-TODO: MAKE SURE DEFAULT WIZARD STATE ACTUALLY IS WORKING
-
 TODO: WHAT IS LEFT:
 - ## Priority:
     - Documentation:
         - Remove excess content from README.md
         - Complete report documenting what, why, and how I did the thing
+    - Ensure tge default wizard state functions as intended
 - ## Would be nice:
     - Checkboxes for each data value so the user can choose to not export certain values
     - Colour coding for date and status
@@ -291,17 +289,11 @@ TODO: WHAT IS LEFT:
     - Data entry for the rest of the things
     - Better name for system
     - Fix progress bar in extrapolation step
+    - Document #future-plans better
 - ## No time before Sept 5th:
     - Move data into a more permanent database
     - Update all code comments to follow the same formatting
     - Include more than just the census data
-
-## Questions
-
-- When finding a new extrapolation ratio is possible should the system:
-    1. Overide the previous ratio
-    2. Create a new ratio that is an average of all ratios gathered
-    3. Ignore the data as if the numbers are there to pull a ratio from there is no need to extrapolate
 
 ## Notes to remember
 1. There are many different fields that this software does not grab despite available data. The reasoning for this is due to a number of factors:
