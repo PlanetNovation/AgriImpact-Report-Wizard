@@ -58,8 +58,8 @@ TODO: Finish
 ```
 project-root/
 ├── data/                       # CSV imports and intermediate datasets
+├── exports/                    # Final processed CSVs
 ├── gui/                        # GUI scripts
-├── outputs/                    # Final processed CSVs
 ├── scripts/                    # Python scripts for data access and transformation
 ├── state/
 │   └── wizard_state.json       # Acts as the system's database - contains all report data and wizard state 
@@ -211,7 +211,6 @@ TODO: MAKE SURE DEFAULT WIZARD STATE ACTUALLY IS WORKING
 TODO: WHAT IS LEFT:
 - ## Priority:
     - REMOVE ONE OF THE TOTAL NUMBER OF FARMS
-    - Export data
     - Remove excess pages
     - Documentation:
         - Finish README
