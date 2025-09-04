@@ -36,6 +36,7 @@ def get_census_tables(status_label=None):
 
     census_years_to_try = get_last_available_census_years()
 
+    # Keywords to filter for just the Agriculture Census tables
     for year in census_years_to_try:
         mask = (
             df['cubeTitleEn'].str.contains("Agriculture", case=False, na=False) &

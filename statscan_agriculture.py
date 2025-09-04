@@ -26,7 +26,7 @@ def main():
     
     # Define the pages
     pages = {
-        "Extract Data": lambda parent: create_extract_frame(parent, stop_event=stop_event),
+        "Import Data": lambda parent: create_extract_frame(parent, stop_event=stop_event),
         "Extrapolate Data": lambda parent: create_import_frame(parent, wizard, stop_event=stop_event),
         "Edit Data": lambda parent: create_edit_frame(parent, wizard.data),
         "Export": lambda parent: create_export_frame(parent, stop_event)

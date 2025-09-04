@@ -27,31 +27,60 @@ set PATH=E:\Python-3.13.5;%PATH%
 
 ### 2. Install Dependencies
 
-Run the following using your Python executable (modify the path as necessary):
+Run the following using your Python executable (modify the python path as necessary):
 ```
-E:\Python-3.13.5\python.exe -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 This will install all of the required packages.
 
 ### 3. Run the Script
 
-This will:
-- Download and filter data from StatsCan
-- Output a filtered CSV (Alberta only, 2024)
-- Generate a plain text output suitable for copying into reports
-
-### Dependency Management
-
-Dependencies are locked to specific versions via `requirements.txt` to ensure consistency.
-
-To update the list manually:
+After navigating to the root folder run:
 ```
-E:\Python-3.13.5\python.exe -m pip freeze > requirements.txt
+python statscan_agriculture.py
 ```
 
 # Usage
-TODO: Finish
+
+Here is a breakdown of each page found within the wizard.
+
+## 1. Import Data Page
+
+From this page the user can download all of the most recent Statistics Canada Census of Agriculture tables into the system.
+<br>The system will look at the most recent three census dates and if no tables are found within the past 15 years nothing will be downloaded.
+
+Statistics Canada has historically released the Agriculture Census data in May of the following year. This system will be most effective when run past this time frame. For example 2026 data will likely be released sometime in May 2027.
+
+⚠️ In the event of a timeout it likely means that Statistics Canada is unavailable. Please refer to [Statistics Canada](https://www.statcan.gc.ca/en/start) for potential status issues.
+
+## 2. Extrapolate Data Page
+
+From here the user should extrapolate the data that was just imported into the system. If this page is skipped the newly downloaded data will not be displayed to the user and will not be included in the final export.
+
+## 3. Edit Data Page
+
+Currently this pages primary function is to display the data to the user. Future iterations will allow the user more agency regarding which data is included in the final export.
+
+The user can click on any category card to view a dropdown of data. Clicking on a new card will collapse open cards for convenience.
+
+Within each category card the following information can be found:
+- `Name` → The title of each data field.
+- `Value` → The associated value. An information bubble can be found that when hovered over will display what units the value is recorded in.
+- `Date Saved` → The date the data was saved into the system.
+- `Quality` → The status quality Statistics Canada provides for all of its data.
+    - "A" → Excellent quality.
+    - "B" → Very good quality.
+    - "C" → Good quality.
+    - "D" → Acceptable quality.
+    - "E" → Use with caution.
+    - "F" → Too unreliable to be published.
+
+## 4. Export Page
+
+A .csv file will be downloaded to the systems ./exports folder. The current year will be appended to the filename in the format `statscan_wizard_export_20xx.csv`.
+
+⚠️ Files will be overwritten if the system exports within the same year.
 
 # Project Structure
 
@@ -117,14 +146,55 @@ The `meta` object is intended to store wizard session state.
 ⚠️ Currently unused — subject to change in future versions.
 
 # Maintenance Guide (What Might Break)
-TODO: Finish
 
+While this section can not cover every possible weakness, it can hopefully provide some help in the right direction.
 
+## Statistics Canada Changes Agriculture Census Format
+
+In the event Statistics Canada changes how the Agriculture Census is formatted there a few things that may be able to fix the system depending on the severity of the changes.
+
+### Most Recent Agriculture Census Data Is Not Being Imported
+
+Firstly check to see if the data has been released yet. Data is typically set to release in May of the following year of the census. Refer to the [usage](#1-import-data-page) for more information.
+
+If the data has been released and the system is still not gathering anything then there are two likely occurrences:
+1. Statistics Canada has changed the formatting of their data.
+2. Statistics Canada has changed the table names.
+
+In the event that the formatting has changed there is likely not much this system can do depending on the severity of the changed.
+<br>If the census data is changed to be presented in a complete pdf file, Like the 2016 Agriculture Census was, then there is not much short of a new system that will help with that.
+
+In the event it is simply a table name change the keyword filters for tables can be found in ./scripts/get_census_tables.py in this section:
+```
+# Keywords to filter for just the Agriculture Census tables
+for year in census_years_to_try:
+    mask = (
+        df['cubeTitleEn'].str.contains("Agriculture", case=False, na=False) &
+        df['cubeTitleEn'].str.contains("Census", case=False, na=False) &
+        df['cubeTitleEn'].str.contains(str(year), case=False, na=False)
+    )
+    filtered = df[mask]
+```
+
+### Specific Data Is No Longer Being Imported
+
+Firstly check to see if the table exists within the ./data folder under agriculture_census_tables_20xx.csv. Cross-referencing the tabes present within the folders between years will likely be helpful in pinpointing if and/or which tables are missing.
+
+It is likely the same issues as the previous section:
+1. The table does not exist.
+2. The table name has been altered/changed.
+3. The table exists however table formatting has changed
+
+If the table does not exist within the agriculture_census_tables_20xx.csv folder then refer to the previous section to see potential issues regarding finding tables.
+
+If the table does exist within agriculture_census_tables_20xx.csv but under a different name than previous years then refer to [this guide](#addingremoving-a-statistics-canada-agriculture-census-table) on how to add/remove tables.
+<br> It may be as simple as changing "bees" to "beekeepers".
+
+If it is a change of how the tables are formatted there are too many possibilities to cover within this documentation. Good Luck!
 
 # Extending the System (How to add, change, or remove fields/features)
-TODO: Finish
 
-#### Many of these customization options are planned to be moved to a more permanent solution. Information can be found in [Future Plans](#future-plans).
+Many of these customization options are planned to be moved to a more permanent solution. Information can be found in [Future Plans](#future-plans).
 
 ## Adding/Removing a Category on "Edit Page" Section
 
@@ -210,14 +280,8 @@ TODO: MAKE SURE DEFAULT WIZARD STATE ACTUALLY IS WORKING
 
 TODO: WHAT IS LEFT:
 - ## Priority:
-    - REMOVE ONE OF THE TOTAL NUMBER OF FARMS
-    - Remove excess pages
     - Documentation:
-        - Finish README
-            - What is likely to break
-            - How to fix
-            - How to add/remove anything
-            - CENSUS TIMING
+        - Remove excess content from README.md
         - Complete report documenting what, why, and how I did the thing
 - ## Would be nice:
     - Checkboxes for each data value so the user can choose to not export certain values
@@ -231,9 +295,6 @@ TODO: WHAT IS LEFT:
     - Move data into a more permanent database
     - Update all code comments to follow the same formatting
     - Include more than just the census data
-
-
-TODO: Census timing for maintenance
 
 ## Questions
 
