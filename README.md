@@ -14,7 +14,7 @@ The system is designed to:
 
 All data is gathered from [Statistics Canada](https://www150.statcan.gc.ca/n1/en/type/data?MM=1).
 
-# TODO: Setup Instructions
+# Setup Instructions
 
 ### 1. Install Python
 
@@ -25,7 +25,13 @@ If running from a portable environment (such as a USB), ensure that the full Pyt
 set PATH=E:\Python-3.13.5;%PATH%
 ```
 
-### 2. Install Dependencies
+### 2. Pull Repo From Github
+
+This project can be found at [https://github.com/PlanetNovation/AgriImpact-Report-Wizard](https://github.com/PlanetNovation/AgriImpact-Report-Wizard).
+
+For cloning a repository refer to the [official documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+### 3. Install Dependencies
 
 Run the following using your Python executable (modify the python path as necessary):
 ```
@@ -34,7 +40,7 @@ python -m pip install -r requirements.txt
 
 This will install all of the required packages.
 
-### 3. Run the Script
+### 4. Run the Script
 
 After navigating to the root folder run:
 ```
