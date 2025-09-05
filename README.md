@@ -46,6 +46,12 @@ After navigating to the root folder run:
 ```
 python statscan_agriculture.py
 ```
+*OR* run this script to turn it into a standalone file. (Might need to alter the python path)
+<br>It is also recommended that the executable is kept within a seperate folder so all generated files are contained
+
+```
+E:\Python-3.13.5\python.exe -m PyInstaller --onefile --statscan_agriculture.py
+```
 
 # Usage
 
