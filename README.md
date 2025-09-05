@@ -293,6 +293,10 @@ Currently only Agriculture Census tables work with this program. Future table su
 - Move data into a more permanent database
 - Update all code comments to follow the same formatting
 - Include more than just the census data
+- Show history of previous data sets
+- Allow editing of variables within the GUI (such as SE AB ratios)
+- Add an additional page to differentiate between provincial and Southeast Alberta extrapolations.
+- Include provincial values within the exported file.
 
 ## What can be improved
 1. Files and their associated keywords should be moved into a singular area. They are meant to be human readable but if this project was to used in another report it would require a significant amount of manual data entry in multiple areas. I am confident there is a change that would only require a "master list" to be input and for the system to dynamically create all of the files and attach the correlated data to the wizard_state.
