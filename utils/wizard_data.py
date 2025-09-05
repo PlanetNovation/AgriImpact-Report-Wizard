@@ -95,7 +95,7 @@ class WizardData:
         """
         value = to_native(self.get_item_field(item_name=item_name, field_name="value"))
         method = self.get_item_field(item_name=item_name, field_name="method")
-        date_gathered = self.get_item_field(item_name=item_name, field_name="date")
+        date_gathered = self.get_item_field(item_name=item_name, field_name="date_value_was_applied")
 
         # Skip if value is None or NaN
         if value is None or (isinstance(value, float) and math.isnan(value)):
