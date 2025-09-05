@@ -64,9 +64,11 @@ Statistics Canada has historically released the Agriculture Census data in May o
 
 From here the user should extrapolate the data that was just imported into the system. If this page is skipped the newly downloaded data will not be displayed to the user and will not be included in the final export.
 
+All extrapolated data gets rounded using bankers rounding.
+
 ## 3. Edit Data Page
 
-Currently this pages primary function is to display the data to the user. Future iterations will allow the user more agency regarding which data is included in the final export.
+Currently this page's primary function is to display the data to the user. Future iterations will allow the user more agency regarding which data is included in the final export.
 
 The user can click on any category card to view a dropdown of data. Clicking on a new card will collapse open cards for convenience.
 
@@ -281,31 +283,16 @@ On the next import the system would download operating_expenses.csv.
 Currently only Agriculture Census tables work with this program. Future table support is outlined in [Future Plans](#future-plans).
 
 # Future Plans
-TODO: WHAT IS LEFT:
-- ## Priority:
-    - Documentation:
-        - Remove excess content from README.md
-        - Complete report documenting what, why, and how I did the thing
-- ## Would be nice:
-    - Checkboxes for each data value so the user can choose to not export certain values
-    - Colour coding for date and status
-    - Single executable
-    - Ensure libraries used are locked
-    - Data entry for the rest of the things
-    - Better name for system
-    - Fix progress bar in extrapolation step
-    - Document #future-plans better
-- ## No time before Sept 5th:
-    - Move data into a more permanent database
-    - Update all code comments to follow the same formatting
-    - Include more than just the census data
 
-## Notes to remember
-1. There are many different fields that this software does not grab despite available data. The reasoning for this is due to a number of factors:
-    <br>A. Data is limited or missing
-    <br>B. Provincial data is provided but not enough data to limit/extrapolate to just SE Alberta
-    <br>C. The original report did not include the data and to keep the project within scope only the prior data has been continued where possible
-Some of these fields may include things such as faba beans, hemp, greenhouse herbs, just to name a few.
+## Potential Additional Features:
+- Checkboxes for each data value so the user can choose to not export certain values
+- Colour coding for date and status
+- Single executable
+- Ensure libraries used are locked
+- Data entry for the rest of the things
+- Move data into a more permanent database
+- Update all code comments to follow the same formatting
+- Include more than just the census data
 
 ## What can be improved
 1. Files and their associated keywords should be moved into a singular area. They are meant to be human readable but if this project was to used in another report it would require a significant amount of manual data entry in multiple areas. I am confident there is a change that would only require a "master list" to be input and for the system to dynamically create all of the files and attach the correlated data to the wizard_state.
@@ -314,11 +301,6 @@ Some of these fields may include things such as faba beans, hemp, greenhouse her
 The good news is that this system already pushes most activity to a status_label. Creating a method to append each message to a log file, and then calling said method at each instance of status_label is likely the easiest implementation.
 
 3. Moving data to a database. The current system used a needlessly complicated json file which could be streamlined into a singular database which would also likely increase its efficiency.
-
-## Current Directions for End of Week:
-- Detail how to add items
-- Detail where more data might be found
-- Detail issues regarding where data was found
 
 # License
 
