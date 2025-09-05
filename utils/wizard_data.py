@@ -11,7 +11,7 @@ class WizardData:
     Class to manage the wizard state
     """
     def __init__(self, filename="wizard_state.json"):
-        self.filename = get_data_path(filename, "state")  # saves inside project-root/data
+        self.filename = get_data_path(filename, "state")  # saves inside project-root/state
         self.data = {}
         self.load()
 
@@ -78,13 +78,22 @@ class WizardData:
         with open(self.filename, "w") as f:
             json.dump(self.data, f)
 
+    def reset_to_default(self):
+        """Reset wizard state to default JSON structure"""
+        self.data = json.loads(get_default_wizard_state())
+        self.save()
+
     def load(self):
-        if os.path.exists(self.filename):
-            with open(self.filename, "r") as f:
+        """Load wizard state from file, or create default if missing/corrupted"""
+        if not os.path.exists(self.filename):
+            self.reset_to_default()
+            return
+
+        try:
+            with open(self.filename, "r", encoding="utf-8") as f:
                 self.data = json.load(f)
-        else:
-            self.data = get_default_wizard_state()
-            self.save()
+        except (json.JSONDecodeError, OSError):
+            self.reset_to_default()
 
     def save_to_history(self, item_name):
         """
@@ -111,11 +120,14 @@ class WizardData:
         }
 
         # Check against last entry to avoid duplicates
-        if history and all(
-            new_entry.get(k) == history[-1].get(k)
-            for k in ("value", "method", "date_gathered")
-        ):
-            return  # No change, skip saving
+        if history:
+            last = history[-1]
+            if (
+                value == last.get("value")
+                and method == last.get("method")
+                and date_gathered == last.get("date_gathered")
+            ):
+                return  # No change, skip saving
 
         # Save new history entry
         history.append(new_entry)

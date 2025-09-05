@@ -65,100 +65,162 @@
             "history": []
         },
         "number of farms": {
-            "value": null,
+            "value": 3237,
             "title": "Number of farms",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.078,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "B",
             "category": "Land Use",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "use",
+            "name_keywords": [
+                "total",
+                "farm",
+                "area"
+            ],
+            "unit_of_measure": "Number of farms reporting",
+            "history": [
+                {
+                    "value": 3237,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "acres of land": {
-            "value": null,
+            "value": 10323019,
             "title": "Acres of land",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.21,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Land Use",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "use",
+            "name_keywords": [
+                "total",
+                "farm",
+                "area"
+            ],
+            "unit_of_measure": "Acres",
+            "history": [
+                {
+                    "value": 10323019,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "land owned (acres)": {
-            "value": null,
+            "value": 4895794,
             "title": "Land owned (acres)",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.166,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Land Use",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "tenure",
+            "name_keywords": [
+                "area",
+                "owned"
+            ],
+            "unit_of_measure": "Acres",
+            "history": [
+                {
+                    "value": 4895794,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "land rented from gov (acres)": {
-            "value": null,
+            "value": 3450356,
             "title": "Land rented from gov (acres)",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.418,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Land Use",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "tenure",
+            "name_keywords": [
+                "governments",
+                "leased"
+            ],
+            "unit_of_measure": "Acres",
+            "history": [
+                {
+                    "value": 3450356,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "land rented from others (acres)": {
-            "value": null,
+            "value": 1321306,
             "title": "Land rented from others (acres)",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.109,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Land Use",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "tenure",
+            "name_keywords": [
+                "others",
+                "rented"
+            ],
+            "unit_of_measure": "Acres",
+            "history": [
+                {
+                    "value": 1321306,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "crop share (acres)": {
-            "value": null,
+            "value": 161076,
             "title": "Crop share (acres)",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.119,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Land Use",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "tenure",
+            "name_keywords": [
+                "crop-shared",
+                "land"
+            ],
+            "unit_of_measure": "Acres",
+            "history": [
+                {
+                    "value": 161076,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "other land arrangements (acres)": {
             "value": null,
@@ -171,7 +233,7 @@
             "quality": null,
             "category": "Land Use",
             "included": true,
-            "file_keyword": null,
+            "file_keyword": "null",
             "name_keywords": [],
             "unit_of_measure": null,
             "history": []
@@ -225,84 +287,136 @@
             "history": []
         },
         "total land": {
-            "value": null,
+            "value": 9880604,
             "title": "Total land",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.201,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Land Use",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "use",
+            "name_keywords": [
+                "total",
+                "farm",
+                "area"
+            ],
+            "unit_of_measure": "Acres",
+            "history": [
+                {
+                    "value": 9880604,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "land in crops": {
-            "value": null,
+            "value": 3129382,
             "title": "Land in crops",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.122,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Land Use",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "use",
+            "name_keywords": [
+                "land",
+                "crops"
+            ],
+            "unit_of_measure": "Acres",
+            "history": [
+                {
+                    "value": 3129382,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "summer fallow": {
-            "value": null,
+            "value": 172560,
             "title": "Summer fallow",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.448,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Land Use",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "use",
+            "name_keywords": [
+                "summerfallow",
+                "land"
+            ],
+            "unit_of_measure": "Acres",
+            "history": [
+                {
+                    "value": 172560,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "pasture (natural, tame & seeded)": {
-            "value": null,
+            "value": 1616988,
             "title": "Pasture (natural, tame & seeded)",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.308,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Land Use",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "use",
+            "name_keywords": [
+                "tame",
+                "seeded",
+                "pasture"
+            ],
+            "unit_of_measure": "Acres",
+            "history": [
+                {
+                    "value": 1616988,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "woodlands & wetlands": {
-            "value": null,
+            "value": 50277,
             "title": "Woodlands & wetlands",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.03,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Land Use",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "use",
+            "name_keywords": [
+                "woodlands",
+                "wetlands"
+            ],
+            "unit_of_measure": "Acres",
+            "history": [
+                {
+                    "value": 50277,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "farm capital": {
             "value": null,
@@ -336,7 +450,14 @@
                 "sole"
             ],
             "unit_of_measure": "Number of farms",
-            "history": []
+            "history": [
+                {
+                    "value": 1533,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "Ownership - partnership": {
             "value": 559,
@@ -354,7 +475,14 @@
                 "partnership"
             ],
             "unit_of_measure": "Number of farms",
-            "history": []
+            "history": [
+                {
+                    "value": 559,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "Ownership - corporation": {
             "value": null,
@@ -388,7 +516,14 @@
                 "other"
             ],
             "unit_of_measure": "Number of farms",
-            "history": []
+            "history": [
+                {
+                    "value": 19,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "total wheat (acres)": {
             "value": 1030769,
@@ -407,7 +542,14 @@
                 "total"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 1030769,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "spring wheat (acres)": {
             "value": 531016,
@@ -426,7 +568,14 @@
                 "wheat"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 531016,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "durum wheat (acres)": {
             "value": 2318197,
@@ -445,7 +594,14 @@
                 "wheat"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 2318197,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "Winter wheat (acres)": {
             "value": 30450,
@@ -464,7 +620,14 @@
                 "wheat"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 30450,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "oats (acres)": {
             "value": 77789,
@@ -482,7 +645,14 @@
                 "oats"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 77789,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "barley (acres)": {
             "value": 252838,
@@ -500,7 +670,14 @@
                 "barley"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 252838,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "mixed grain (acres)": {
             "value": 26716,
@@ -519,7 +696,14 @@
                 "grains"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 26716,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "corn for grain (acres)": {
             "value": 6061,
@@ -538,7 +722,14 @@
                 "grain"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 6061,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "buckwheat (acres)": {
             "value": null,
@@ -575,7 +766,14 @@
                 "total"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 25693,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "fall rye (acres)": {
             "value": 11802,
@@ -594,7 +792,14 @@
                 "rye"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 11802,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "spring rye (acres)": {
             "value": 0,
@@ -613,7 +818,14 @@
                 "rye"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 0,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "corn for silage (acres)": {
             "value": 18727,
@@ -632,7 +844,14 @@
                 "silage"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 18727,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "alfalfa (acres)": {
             "value": 368817,
@@ -650,7 +869,14 @@
                 "alfalfa"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 368817,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "other hay (acres)": {
             "value": 132481,
@@ -669,7 +895,14 @@
                 "hay"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 132481,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "canola (acres)": {
             "value": 307556,
@@ -687,7 +920,14 @@
                 "canola"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 307556,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "flaxseed (acres)": {
             "value": 25384,
@@ -705,7 +945,14 @@
                 "flaxseed"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 25384,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "soybeans (acres)": {
             "value": null,
@@ -741,7 +988,14 @@
                 "mustard"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 45421,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "sunflower (acres)": {
             "value": 767,
@@ -759,7 +1013,14 @@
                 "sunflower"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 767,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "potato (acres)": {
             "value": 7995,
@@ -777,7 +1038,14 @@
                 "potatoes"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 7995,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "dry field peas (acres)": {
             "value": 216271,
@@ -797,7 +1065,14 @@
                 "peas"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 216271,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "lentils (acres)": {
             "value": 288941,
@@ -815,7 +1090,14 @@
                 "lentils"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 288941,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "dry white beans (acres)": {
             "value": 1441,
@@ -835,7 +1117,14 @@
                 "beans"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 1441,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "other dry bean (acres)": {
             "value": 17367,
@@ -855,7 +1144,14 @@
                 "beans"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 17367,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "sugar beets (acres)": {
             "value": 981,
@@ -874,7 +1170,14 @@
                 "beets"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 981,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "triticale (acres)": {
             "value": 21750,
@@ -892,7 +1195,14 @@
                 "triticale"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 21750,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "forage seed for seed (acres)": {
             "value": 44154,
@@ -911,7 +1221,14 @@
                 "seed"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 44154,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "other field crops (acres)": {
             "value": 9082,
@@ -931,7 +1248,14 @@
                 "crops"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 9082,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "total fruits, berries, nuts (acres)": {
             "value": null,
@@ -965,7 +1289,14 @@
                 "strawberries"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 2,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "raspberries (acres)": {
             "value": 3,
@@ -983,7 +1314,14 @@
                 "raspberries"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 3,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "number of greenhouses": {
             "value": 40,
@@ -1003,7 +1341,14 @@
                 "area"
             ],
             "unit_of_measure": "Number of farms reporting",
-            "history": []
+            "history": [
+                {
+                    "value": 40,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "sq ft of greenhouse in use": {
             "value": 6845813,
@@ -1023,7 +1368,14 @@
                 "area"
             ],
             "unit_of_measure": "Square feet",
-            "history": []
+            "history": [
+                {
+                    "value": 6845813,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "number of flower greenhouses": {
             "value": 1,
@@ -1041,7 +1393,14 @@
                 "flower"
             ],
             "unit_of_measure": "Number of farms reporting",
-            "history": []
+            "history": [
+                {
+                    "value": 1,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "sq ft of flower greenhouses": {
             "value": null,
@@ -1077,7 +1436,14 @@
                 "vegetable"
             ],
             "unit_of_measure": "Number of farms reporting",
-            "history": []
+            "history": [
+                {
+                    "value": 72,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "sq ft of vegetable greenhouses": {
             "value": 0,
@@ -1095,7 +1461,14 @@
                 "vegetable"
             ],
             "unit_of_measure": "Square feet",
-            "history": []
+            "history": [
+                {
+                    "value": 0,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "irrigation (acres)": {
             "value": 504411,
@@ -1113,7 +1486,14 @@
                 "irrigation"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 504411,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "commercial fertilizer": {
             "value": 2271930,
@@ -1132,7 +1512,14 @@
                 "fertilizer"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 2271930,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "herbicide": {
             "value": 2458479,
@@ -1150,7 +1537,14 @@
                 "herbicides"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 2458479,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "insecticide": {
             "value": 292728,
@@ -1168,7 +1562,14 @@
                 "insecticides"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 292728,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "fungicide": {
             "value": 626647,
@@ -1186,7 +1587,14 @@
                 "fungicides"
             ],
             "unit_of_measure": "Acres",
-            "history": []
+            "history": [
+                {
+                    "value": 626647,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "number of farms using manure": {
             "value": 705,
@@ -1205,7 +1613,14 @@
                 "applied"
             ],
             "unit_of_measure": "Number of farms reporting",
-            "history": []
+            "history": [
+                {
+                    "value": 705,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "total hens and chickens": {
             "value": null,
@@ -1271,7 +1686,14 @@
                 "table"
             ],
             "unit_of_measure": "Number of eggs (dozens)",
-            "history": []
+            "history": [
+                {
+                    "value": 2640393,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "number of farms broilers": {
             "value": null,
@@ -1321,7 +1743,14 @@
                 "table"
             ],
             "unit_of_measure": "Number of farms reporting",
-            "history": []
+            "history": [
+                {
+                    "value": 66,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "total cows and calves": {
             "value": null,
@@ -1483,7 +1912,14 @@
                 "horse"
             ],
             "unit_of_measure": "Number of farms",
-            "history": []
+            "history": [
+                {
+                    "value": 182,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "number of goat farms": {
             "value": null,
@@ -1566,7 +2002,14 @@
                 "colonies"
             ],
             "unit_of_measure": "Number",
-            "history": []
+            "history": [
+                {
+                    "value": 30161,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "gallons of pollinating bees": {
             "value": null,
@@ -1652,212 +2095,342 @@
             "history": []
         },
         "total number of farms": {
-            "value": null,
+            "value": 2034,
             "title": "Total number of farms",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.049,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "B",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "total",
+                "number"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 2034,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "dairy": {
-            "value": null,
+            "value": 7,
             "title": "Dairy",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
-            "ratio": 0.049,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
+            "ratio": 0.017,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "dairy",
+                "cattle"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 7,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "cattle": {
-            "value": null,
+            "value": 1562,
             "title": "Cattle",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.107,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "beef",
+                "ranching"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 1562,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "hog": {
-            "value": null,
+            "value": 4,
             "title": "Hog",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.03,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "hog",
+                "pig"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 4,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
-        "poultry": {
-            "value": null,
-            "title": "Poultry",
+        "poultry and egg production": {
+            "value": 8,
+            "title": "Poultry and egg production",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.019,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "poultry",
+                "egg",
+                "production"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 8,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "sheep and goat": {
-            "value": null,
+            "value": 21,
             "title": "Sheep and goat",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.045,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "sheep",
+                "goat"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 21,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "other livestock": {
-            "value": null,
+            "value": 154,
             "title": "Other livestock",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.037,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "other",
+                "animal",
+                "production"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 154,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "wheat": {
-            "value": null,
+            "value": 332,
             "title": "Wheat",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.133,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "wheat"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 332,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "grain / oilseed": {
-            "value": null,
+            "value": 920,
             "title": "Grain / oilseed",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.066,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "oilseed",
+                "grain"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 920,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "hay": {
-            "value": null,
+            "value": 295,
             "title": "Hay",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.058,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "hay"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 295,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "fruit / tree nut": {
-            "value": null,
+            "value": 4,
             "title": "Fruit / tree nut",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.029,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "fruit",
+                "tree",
+                "nut"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 4,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "vegetable/melon": {
-            "value": null,
+            "value": 18,
             "title": "Vegetable/melon",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.064,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "vegetable",
+                "melon"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 18,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "greenhouse": {
-            "value": null,
+            "value": 29,
             "title": "Greenhouse",
             "description": "",
-            "method": null,
-            "date_value_was_applied": null,
+            "method": "extrapolation",
+            "date_value_was_applied": "2025-09-04",
             "ratio": 0.068,
             "ratio_last_updated": null,
-            "quality": null,
+            "quality": "A",
             "category": "Types of Farms",
             "included": true,
-            "file_keyword": null,
-            "name_keywords": [],
-            "unit_of_measure": null,
-            "history": []
+            "file_keyword": "type",
+            "name_keywords": [
+                "greenhouse"
+            ],
+            "unit_of_measure": "Number of farms",
+            "history": [
+                {
+                    "value": 29,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "other": {
             "value": null,
@@ -2051,7 +2624,14 @@
                 "family"
             ],
             "unit_of_measure": "Number of farms reporting",
-            "history": []
+            "history": [
+                {
+                    "value": 606,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "number of farms with succession planning to: non-family members": {
             "value": 16,
@@ -2069,7 +2649,14 @@
                 "non-family"
             ],
             "unit_of_measure": "Number of farms reporting",
-            "history": []
+            "history": [
+                {
+                    "value": 16,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "number of farms with renewable energy": {
             "value": 254,
@@ -2088,7 +2675,14 @@
                 "total"
             ],
             "unit_of_measure": "Number of farms reporting",
-            "history": []
+            "history": [
+                {
+                    "value": 254,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "number of farms with solar panels": {
             "value": 228,
@@ -2106,7 +2700,14 @@
                 "solar"
             ],
             "unit_of_measure": "Number of farms reporting",
-            "history": []
+            "history": [
+                {
+                    "value": 228,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "number of farms with wind turbines": {
             "value": 17,
@@ -2124,7 +2725,14 @@
                 "wind"
             ],
             "unit_of_measure": "Number of farms reporting",
-            "history": []
+            "history": [
+                {
+                    "value": 17,
+                    "method": "extrapolation",
+                    "date_gathered": "2025-09-04",
+                    "date_saved_to_history": "2025-09-04"
+                }
+            ]
         },
         "number of farm operators": {
             "value": null,

@@ -52,7 +52,7 @@ def create_import_frame(parent, wizard, stop_event):
                     return
 
                 # Run your import function
-                import_recent_census_data(status_label=status_label,wizard=wizard , stop_event=stop_event)
+                import_recent_census_data(status_label=status_label, progress=progress, wizard=wizard, stop_event=stop_event)
 
                 # If cancelled during import
                 if stop_event.is_set():

@@ -3,17 +3,27 @@ from utils.wizard_data import WizardData
 
 # TODO: Move to WizardData class
 
-def import_recent_census_data(status_label=None, wizard=None, stop_event=None):
+def import_recent_census_data(status_label=None, progress=None, wizard=None, stop_event=None):
     """
     Updates the wizard_state.json data to the most recently pulled agriculture census data.
     Supports cancellation via stop_event.
     """
+    
+    total_items = len([f for f in wizard.data.get("items", {}).values() if f.get("included", False)])
+    progress_increment = 100 / total_items if total_items else 0
+    
     for item_name, fields in wizard.data.get("items", {}).items():
         # ✅ Check stop_event before starting each item
         if stop_event and stop_event.is_set():
             if status_label:
                 status_label.config(text="⚠️ Import stopped by user")
+            if progress:
+                progress['value'] = 0
             break
+
+        # Update progress for each processed item
+        if progress:
+            progress.step(progress_increment)
 
         # Skip if the item is marked as not included
         if not fields.get("included", False):
@@ -37,6 +47,8 @@ def import_recent_census_data(status_label=None, wizard=None, stop_event=None):
         if stop_event and stop_event.is_set():
             if status_label:
                 status_label.config(text="⚠️ Import stopped by user")
+            if progress:
+                progress['value'] = 0
             break
 
         if result:

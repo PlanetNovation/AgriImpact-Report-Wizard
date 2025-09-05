@@ -286,7 +286,6 @@ TODO: WHAT IS LEFT:
     - Documentation:
         - Remove excess content from README.md
         - Complete report documenting what, why, and how I did the thing
-    - Ensure tge default wizard state functions as intended
 - ## Would be nice:
     - Checkboxes for each data value so the user can choose to not export certain values
     - Colour coding for date and status
@@ -314,7 +313,7 @@ Some of these fields may include things such as faba beans, hemp, greenhouse her
 2. Better logs. Keeping track of what and when something goes wrong will likely be very important in keeping this software working into the future.
 The good news is that this system already pushes most activity to a status_label. Creating a method to append each message to a log file, and then calling said method at each instance of status_label is likely the easiest implementation.
 
-3. Moving data to a database. The current system used a needlessly complicated json file which could be streamlined into a 
+3. Moving data to a database. The current system used a needlessly complicated json file which could be streamlined into a singular database which would also likely increase its efficiency.
 
 ## Current Directions for End of Week:
 - Detail how to add items
